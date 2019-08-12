@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+/* SECTION 1 */
+
+/* Section 1 color */
+#sec1 {
+    /* background-color: white; */
+}
+
+/* Logo Adjustment */
+#logo {
+ width: 1300px;
+}
+
+#logodiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -350px;
+    margin-left: -130px;
+}
+
+/* Slogan */
+.slogan {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+
+#slogan_div {
+    display: flex;
+    flex-direction: row;
+     justify-content: center; 
+     margin-top: -400px;
+        /* margin-left: 70px;  */
+    color: black;
+}
+
+#forspace {
+    color: white;
+}
+/* SECTION 2 */
+
+
+/* Building Muscle Title */
+#bmdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-top: 100px;
+    /* margin-left: 80px; */
+    color: rgb(0, 0, 0);
+}
+
+/* Arms title with some words */
+#armswhole {
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+/* "Arms" */
+#arms {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 50px;
+    /* color: rgb(130, 255, 140); */
+}
+
+/* "which muscles will you like to work out..?" */
+#ex1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+}
+
+#all3squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+/* Bicep Square */
+#biceplink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(bicepsquare.png);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    border: rgb(128, 11, 11) solid 10px;
+    transition-duration: 0.4s;
+} 
+
+#biceplink:hover {
+    border: rgb(128, 11, 11) solid 10px;
+    background-color: rgb(128, 11, 11);
+}
+
+/* Tricep Square */
+#triceplink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(bicepsquare.png);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px; 
+    border: rgb(219, 216, 44) solid 10px;
+    transition-duration: 0.4s; 
+}
+
+#triceplink:hover {
+    border: rgb(219, 216, 44) solid 10px;
+    background-color: rgb(219, 216, 44);
+}
+
+/* Shoulder Square */
+#shoulderlink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(bicepsquare.png);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px; 
+    border: rgb(62, 64, 140) solid 10px;
+    transition-duration: 0.4s;
+}
+
+#shoulderlink:hover {
+    border: rgb(62, 64, 140) solid 10px;
+    background-color: rgb(62, 64, 140);
+    
+}
+
+/* Forearm Square */
+#forearmsquare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#forearmlink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(bicepsquare.png);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px; 
+    border: rgb(36, 179, 112) solid 10px;
+    transition-duration: 0.4s;
+
+}
+
+#forearmlink:hover {
+    border: rgb(36, 179, 112) solid 10px;
+    background-color: rgb(36, 179, 112)
+}

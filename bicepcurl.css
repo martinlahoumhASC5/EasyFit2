@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 100px;
+    background-color: rgb(218, 57, 57);
+}
+
+/* BicepCurls Title */
+#bicepname {
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+}
+
+/* Bicep Title Position */
+#biceptitle {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+/* "Heres your info:" */
+#hyi {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+}
+
+/* Image's position */
+#img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Button decoration */
+#btn {
+
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    background-color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
