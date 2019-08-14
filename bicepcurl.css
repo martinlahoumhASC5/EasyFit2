@@ -34,7 +34,11 @@ justify-content: center;
     justify-content: center;
 }
 
-/* Button decoration */
+#bcimg {
+  margin-top: -100px;
+}
+
+/* Button decoration right */
 #btn {
 
     font-family: 'Josefin Sans', sans-serif;
@@ -43,7 +47,7 @@ justify-content: center;
     border-radius: 50px;
     width: 200px;
     height: 100px;
-    margin-top: 100px;
+    margin-top: 300px;
     background-color: white;
     border: none;
     font-size: 40px;
@@ -73,6 +77,69 @@ justify-content: center;
   #btn:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  /* Button decoration left */
+#btn2 {
+
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    margin-top: 300px;
+    background-color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn2 span:after {
+    content: ' \00AB'; 
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn2:hover span {
+    padding-left: 25px;
+  }
+  
+  #btn2:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 1060px) {
+  body {
+    padding: 0px;
+  }
+
+  #bicepname {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  #hyi {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+
+
+
+
   }
 
 

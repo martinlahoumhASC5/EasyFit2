@@ -4,14 +4,12 @@
 }
 
 body {
-    background-color: rgb(128, 11, 11);
-    padding: 100px;
+    background-color: rgb(36, 179, 112);   padding: 100px;
 }
-
 /* Biceps Title */
 #bicepsname {
     font-family: 'Playfair Display', serif;
-    font-size: 200px;
+    font-size: 150px;
 }
 
 /* Biceps Title Position: with flex */
@@ -24,16 +22,15 @@ body {
 /* "Which exercise will you perform today..?" */
 #exp2 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 30px;
-    margin-left: 0;
-    margin-right: -20px;
 }
 
 /* Exercise 1: Bicep Curl */
 #bcimg {
     width: 300px;
-    height:210px;
+    height: 200px;
+    border: black solid 1px;
     border-radius: 350px;
 }
 
@@ -48,28 +45,13 @@ body {
 
 #bcname {
     font-family: 'Lexend Exa', sans-serif;
-    font-size: 150px;
+    text-decoration: none;
+    font-size: 40px;
+    align-self: center;
     margin-left: 100px;
     color: black;
 }
 
 a{
     text-decoration: none;
-}
-
-@media screen and (max-width: 1060px) {
-    body {
-        padding: 0px;
-    }
-    
-    
-    #bicepsname {
-        display: flex;
-        font-size: 110px;
-        justify-content: center;
-    }
-
-    #ex1 {
-    text-align: center;
-    }
 }

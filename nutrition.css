@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background: burlywood;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 100px;
+}
+
+p{
+    font-size: 25px
+}
+
+#content{
+    border: 10px solid rgb(250, 205, 109);
+    border-radius: 20px;
+    background: aliceblue;
+    width: 75%;
+    padding: 10px
+}
+
+img{
+    width: 200px;
+    height: 200px; 
+    float: left;
+    border: 5px solid tan;
+    margin-right: 10px;
+}
+
+h2{
+    text-align: center;
+}
+

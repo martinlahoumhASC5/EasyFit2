@@ -49,7 +49,7 @@ body {
 
 
 /* Building Muscle Title */
-#bmdiv{
+.bmdiv{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,6 +58,7 @@ body {
     margin-top: 100px;
     /* margin-left: 80px; */
     color: rgb(0, 0, 0);
+    opacity: 1;
 }
 
 /* Arms title with some words */
@@ -67,8 +68,22 @@ body {
     padding-top: 20px;
 }
 
+#legswhole {
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-top: 20px;
+    border-top: 1px black solid;
+    margin-top: 20px;
+}
+
 /* "Arms" */
 #arms {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 50px;
+    /* color: rgb(130, 255, 140); */
+}
+
+#legs {
     font-family: 'Lexend Exa', sans-serif;
     font-size: 50px;
     /* color: rgb(130, 255, 140); */
@@ -80,7 +95,19 @@ body {
     font-size: 40px;
 }
 
+#ex2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+}
+
 #all3squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#all3squares2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -101,12 +128,59 @@ body {
     border-radius: 10px;
     border: rgb(128, 11, 11) solid 10px;
     transition-duration: 0.4s;
-} 
+}
 
 #biceplink:hover {
     border: rgb(128, 11, 11) solid 10px;
     background-color: rgb(128, 11, 11);
 }
+
+#calvelink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/146/leg_1f9b5.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    border: rgb(255, 149, 0) solid 10px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+}
+
+#calvelink:hover {
+    border: rgb(255, 149, 0) solid 10px;
+    background-color: rgb(255, 149, 0);
+}
+
+/* Tricep Square */
+#quadlink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/146/leg_1f9b5.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px; 
+    border: rgb(204, 255, 0) solid 10px;
+    transition-duration: 0.4s; 
+}
+
+#quadlink:hover {
+    border: rgb(204, 255, 0) solid 10px;
+    background-color: rgb(204, 255, 0);
+}
+
 
 /* Tricep Square */
 #triceplink {
@@ -150,7 +224,30 @@ body {
 #shoulderlink:hover {
     border: rgb(62, 64, 140) solid 10px;
     background-color: rgb(62, 64, 140);
-    
+}
+
+
+/* Shoulder Square */
+#hamstringlink {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/146/leg_1f9b5.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px; 
+    border: rgb(0, 149, 255) solid 10px;
+    transition-duration: 0.4s;
+}
+
+#hamstringlink:hover {
+    border: rgb(0, 149, 255) solid 10px;
+    background-color: rgb(0, 149, 255);
 }
 
 /* Forearm Square */
@@ -181,4 +278,84 @@ body {
 #forearmlink:hover {
     border: rgb(36, 179, 112) solid 10px;
     background-color: rgb(36, 179, 112)
+}
+
+
+#mission{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#Nutrition{
+    border: 10px burlywood solid;
+    width:500px;
+    padding: 15px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+
+#Nutrition:hover{
+    border: burlywood solid 10px;
+    background-color: burlywood;
+}
+
+#j{
+    display: flex;
+    justify-content: center;
+    border-top: 1px black solid
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1060px) {
+    .bmdiv { 
+    text-align: center;
+     }
+
+     /* Centering the arms text */
+     #armswhole {
+         text-align: center;
+     }
+
+     /* Centering  first 3 squares in a column */
+     #all3squares {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     /* Spacing out the tricep square */
+     #tricepsquare {
+         margin-top: 20px;
+     }
+
+     /* Spacing out the shoulder square */
+     #shouldersquare {
+         margin-top: 20px;
+     }
+
+     /* Spacing out the forearm square */
+     #forearmsquare {
+         margin-top: 20px;
+     }
+
+     /* Centering the legs text */
+     #legswhole {
+         text-align: center;
+     }
+
+     /* Centering  first 3 squares in a column */
+     #all3squares2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
 }
