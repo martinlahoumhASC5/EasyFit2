@@ -1,11 +1,11 @@
 let index;
-let array = ["bicepcurlimg.png", "bicepcurlimg2.png"]
+let array = ["bicepcurlimg.png", "bicepcurlimg2.png"];
 // Button Next
 function myFunction() {
     if(index==null){
         index=0;
     }
-    else if(index > array.length){
+    else if(index >= array.length-1){
         index=0;
     }
     else{

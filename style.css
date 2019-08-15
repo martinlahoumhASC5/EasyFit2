@@ -115,10 +115,11 @@ body {
     margin-top: 40px;
 }
 /* Bicep Square */
+
 #biceplink {
     display: block;
     /* NOTE: IMAGE IS PLACEHOLDER */
-    background-image: url(bicepsquare.png);
+    background-image: url("bicepimg3.png");
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 250px;
@@ -129,6 +130,8 @@ body {
     border-radius: 10px;
     border: rgb(128, 11, 11) solid 10px;
     transition-duration: 0.4s;
+    background-size: cover; 
+    background-position: center;
 }
 
 #biceplink:hover {
@@ -209,7 +212,7 @@ body {
 #shoulderlink {
     display: block;
     /* NOTE: IMAGE IS PLACEHOLDER */
-    background-image: url(bicepsquare.png);
+    background-image: url("shoulders2.png");
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 250px;
@@ -220,6 +223,9 @@ body {
     border-radius: 10px; 
     border: rgb(62, 64, 140) solid 10px;
     transition-duration: 0.4s;
+    background-size:400px;
+    background-position: center
+
 }
 
 #shoulderlink:hover {
@@ -262,7 +268,7 @@ body {
 #forearmlink {
     display: block;
     /* NOTE: IMAGE IS PLACEHOLDER */
-    background-image: url(bicepsquare.png);
+    background-image: url(forearm.png);
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 250px;
@@ -273,7 +279,8 @@ body {
     border-radius: 10px; 
     border: rgb(36, 179, 112) solid 10px;
     transition-duration: 0.4s;
-
+    background-size: 400px;
+    background-position: center 
 }
 
 #forearmlink:hover {

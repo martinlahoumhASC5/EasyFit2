@@ -78,7 +78,7 @@ a{
 #homebtn:hover {
     display: block;
     /* NOTE: IMAGE IS PLACEHOLDER */
-    background-image: url(EasyFit-Logo4.png);
+    background-image: url();
     width: 500px;
     height: 150px;
     background-color: rgb(36, 179, 112);
