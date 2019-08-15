@@ -10,6 +10,10 @@ h1{
     font-size: 100px;
 }
 
+div{
+    border-top: 1px solid black
+}
+
 p{
     font-size: 25px
 }
@@ -26,13 +30,26 @@ p{
 img{
     width: 200px;
     height: 200px; 
-    float: left;
     border: 5px solid tan;
+}
+
+#bd{
+    float: left;
     margin: 11px;
+}
+
+#bdd{
+    float:right;
+    margin-top: 10
+}
+
+#bbd{
+    float: right;
 }
 
 h2{
     text-align: center;
+    padding-top: 20px;
 }
 
 li{

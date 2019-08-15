@@ -5,14 +5,14 @@
 
 body {
     padding: 100px;
-    background-color: rgb(218, 57, 57);
+    background-color: rgb(219, 236, 65);
     zoom: 80%;
 }
 
 /* BicepCurls Title */
 #bicepname {
     font-family: 'Playfair Display', serif;
-    font-size: 200px;
+    font-size: 190px;
 }
 
 /* Bicep Title Position */
@@ -36,7 +36,7 @@ justify-content: center;
 }
 
 #bcimg {
-  margin-top: -100px;
+  margin-top: -250px;
 }
 
 /* Button decoration right */
@@ -121,10 +121,9 @@ justify-content: center;
     left: 0;
   }
 
-  #par {
-    font-size: 40px;
-    margin-top: 30px;
-  }
+
+
+
 
   /* Responsive */
   @media screen and (max-width: 1060px) {
@@ -147,7 +146,3 @@ justify-content: center;
 
 
   }
-
-
-
-
