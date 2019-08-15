@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: rgb(219, 216, 49);   padding: 100px;
+    background-color: rgb(219, 216, 49);   
+    padding: 100px;
+    zoom: 80%;
 }
 /* Biceps Title */
 #bicepsname {
@@ -54,4 +56,38 @@ body {
 
 a{
     text-decoration: none;
+}
+
+#homebtn {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(EasyFit-Logo4.png);
+    width: 500px;
+    height: 150px;
+    background-color: red;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-top: -240px;
+    margin-left: -150px;
+}
+
+#homebtn:hover {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(EasyFit-Logo4.png);
+    width: 500px;
+    height: 150px;
+    background-color: rgb(219, 216, 49);
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-top: -200px;
+    margin-left: -150px; 
 }

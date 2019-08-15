@@ -3,6 +3,7 @@ body{
     background: burlywood;
     align-items: center;
     flex-direction: column;
+    zoom: 80%;
 }
 
 h1{
@@ -18,7 +19,8 @@ p{
     border-radius: 20px;
     background: aliceblue;
     width: 75%;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 img{
@@ -26,10 +28,48 @@ img{
     height: 200px; 
     float: left;
     border: 5px solid tan;
-    margin-right: 10px;
+    margin: 11px;
 }
 
 h2{
     text-align: center;
 }
 
+li{
+    font-size: 21px;
+}
+
+
+#homebtn {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(EasyFit-Logo4.png);
+    width: 500px;
+    height: 150px;
+    background-color: red;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-top: -240px;
+    margin-left: -150px;
+}
+
+#homebtn:hover {
+    display: block;
+    /* NOTE: IMAGE IS PLACEHOLDER */
+    background-image: url(EasyFit-Logo4.png);
+    width: 500px;
+    height: 150px;
+    background-color: red;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-top: -200px;
+    margin-left: -150px; 
+}
